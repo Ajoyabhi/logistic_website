@@ -19,11 +19,11 @@ const oswald = Oswald({
 
 export const metadata: Metadata = {
   title: {
-    default: "Nexora Movers — Packers, Movers & On-Demand Transport in India",
-    template: "%s | Nexora Movers",
+    default: "DPSV Logistic — Packers, Movers & On-Demand Transport in India",
+    template: "%s | DPSV Logistic",
   },
   description:
-    "Nexora Movers is a moving, packing & on-demand transport startup with its own trained crew — home shifting, office relocation, intercity moves, car & bike transport, on-demand mini-trucks and storage across India.",
+    "DPSV Logistic is a Gorakhpur-based moving, packing & on-demand transport company with its own trained crew — home shifting, office relocation, intercity moves, car & bike transport, on-demand mini-trucks and storage across North & Central India.",
 };
 
 export default function RootLayout({

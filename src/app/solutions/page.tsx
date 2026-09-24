@@ -5,7 +5,7 @@ import { solutions } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Services",
-  description: "Explore Nexora Movers services: home shifting, office relocation, intercity moves, on-demand intra-city transport, car & bike transport and storage — all by our own crew.",
+  description: "Explore DPSV Logistic services: home shifting, office relocation, intercity moves, on-demand intra-city transport, car & bike transport and storage — all by our own crew.",
 };
 
 export default function SolutionsPage() {

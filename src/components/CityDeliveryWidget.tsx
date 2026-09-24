@@ -38,7 +38,7 @@ export default function CityDeliveryWidget() {
         <h3 className="mt-4 font-head text-2xl font-600 uppercase text-navy-800">Driver on the way!</h3>
         <p className="mx-auto mt-2 max-w-md text-mute">
           Your {v.label.toLowerCase()} is booked. Estimated arrival for pickup in about {result.eta} minutes.
-          You&apos;ll get live tracking on the Nexora app. (Demo — no real booking is made.)
+          You&apos;ll get live tracking on the DPSV app. (Demo — no real booking is made.)
         </p>
         <button onClick={() => { setBooked(false); setResult(null); }} className="mt-6 rounded-sm border border-navy-800 px-6 py-3 font-700 uppercase tracking-wide text-navy-800 hover:bg-navy-800 hover:text-white">
           Book another
@@ -80,11 +80,11 @@ export default function CityDeliveryWidget() {
         </div>
         <div>
           <label className="mb-1.5 block text-xs font-600 uppercase tracking-wide text-mute">Pickup area</label>
-          <input required className={field} placeholder="e.g. Koramangala" />
+          <input required className={field} placeholder="e.g. Indira Nagar" />
         </div>
         <div>
           <label className="mb-1.5 block text-xs font-600 uppercase tracking-wide text-mute">Drop area</label>
-          <input required className={field} placeholder="e.g. Indiranagar" />
+          <input required className={field} placeholder="e.g. Gomti Nagar" />
         </div>
         <div className="sm:col-span-2">
           <label className="mb-1.5 flex items-center justify-between text-xs font-600 uppercase tracking-wide text-mute">

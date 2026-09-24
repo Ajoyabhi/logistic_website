@@ -7,7 +7,7 @@ import { industries } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Who We Serve",
-  description: "Nexora Movers serves families, working professionals, offices, students, tenants and long-distance movers with tailored moving services.",
+  description: "DPSV Logistic serves families, working professionals, offices, students, tenants and long-distance movers with tailored moving services.",
 };
 
 export default function IndustriesPage() {

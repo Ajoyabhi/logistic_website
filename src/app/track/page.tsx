@@ -4,7 +4,7 @@ import TrackWidget from "@/components/TrackWidget";
 
 export const metadata: Metadata = {
   title: "Track Your Move",
-  description: "Track your Nexora Movers booking in real time — from survey and packing to delivery — by booking ID or mobile number.",
+  description: "Track your DPSV Logistic booking in real time — from survey and packing to delivery — by booking ID or mobile number.",
 };
 
 export default function TrackPage() {

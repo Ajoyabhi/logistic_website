@@ -5,13 +5,13 @@ import ContactForm from "@/components/ContactForm";
 
 export const metadata: Metadata = {
   title: "Partner with Us",
-  description: "Grow with Nexora Movers — join our crew as a driver or mover, or set up a corporate partnership for employee and bulk moves.",
+  description: "Grow with DPSV Logistic — join our crew as a driver or mover, or set up a corporate partnership for employee and bulk moves.",
 };
 
 const models = [
   {
     icon: "users",
-    title: "Drive & Move with Nexora",
+    title: "Drive & Move with DPSV",
     body: "Join our in-house team as a driver, or as a mover on our packing and loading crews. Get steady work, fair on-time pay and full training.",
     points: ["Steady daily assignments", "Transparent, on-time payments", "App-based job management", "Training, gear & support provided"],
   },
@@ -34,8 +34,8 @@ export default function PartnerPage() {
   return (
     <>
       <PageHero
-        title="Partner with Nexora"
-        subtitle="Grow with Nexora — join our crew as a driver or mover, or set up a corporate partnership."
+        title="Partner with DPSV"
+        subtitle="Grow with DPSV — join our crew as a driver or mover, or set up a corporate partnership."
         image="https://images.unsplash.com/photo-1600518464441-9154a4dea21b?auto=format&fit=crop&w=2000&q=70"
         trail={[{ label: "Partner with Us" }]}
       />

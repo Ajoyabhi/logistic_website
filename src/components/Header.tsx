@@ -21,7 +21,7 @@ const mainNav = [
     label: "Company",
     href: "/about",
     children: [
-      { label: "About Nexora", href: "/about", desc: "Movers & packers with our own team" },
+      { label: "About DPSV", href: "/about", desc: "Movers & packers with our own team" },
       { label: "Why Choose Us", href: "/about#why", desc: "In-house crew, transparent pricing" },
       { label: "Sustainability", href: "/sustainability", desc: "Reusable packing, greener moves" },
       { label: "Careers", href: "/careers", desc: "Build your career with us" },
@@ -31,7 +31,7 @@ const mainNav = [
     label: "Partner",
     href: "/partner",
     children: [
-      { label: "Drive & Move with Nexora", href: "/partner", desc: "Join our fleet & crew" },
+      { label: "Drive & Move with DPSV", href: "/partner", desc: "Join our fleet & crew" },
       { label: "Corporate Partnerships", href: "/contact", desc: "Employee & bulk moves" },
     ],
   },

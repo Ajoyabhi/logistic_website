@@ -35,7 +35,7 @@ export default async function SolutionDetail({ params }: { params: Promise<{ slu
       <section className="py-16 md:py-24">
         <div className="shell grid gap-12 lg:grid-cols-3">
           <div className="lg:col-span-2">
-            <SectionTitle eyebrow="Overview" title={`Why choose Nexora for ${s.title.toLowerCase()}`} intro={s.intro} />
+            <SectionTitle eyebrow="Overview" title={`Why choose DPSV for ${s.title.toLowerCase()}`} intro={s.intro} />
             <ul className="mt-8 grid gap-3 sm:grid-cols-2">
               {s.bullets.map((b) => (
                 <li key={b} className="flex items-start gap-3 rounded-lg border border-line bg-white p-4">

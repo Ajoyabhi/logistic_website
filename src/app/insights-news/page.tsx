@@ -7,7 +7,7 @@ import { articles } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Insights & News",
-  description: "The latest press releases, insights and success stories from Nexora Logistics.",
+  description: "The latest press releases, insights and success stories from DPSV Logistics.",
 };
 
 export default function InsightsPage() {

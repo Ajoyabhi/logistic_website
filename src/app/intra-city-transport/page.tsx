@@ -7,7 +7,7 @@ import { metros } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Intra-City Transport",
-  description: "Book an on-demand mini-truck, three-wheeler or two-wheeler with a driver from Nexora's own fleet to move goods anywhere in your city. Instant fare, live tracking.",
+  description: "Book an on-demand mini-truck, three-wheeler or two-wheeler with a driver from DPSV's own fleet to move goods anywhere in your city. Instant fare, live tracking.",
 };
 
 const vehicles = [
@@ -54,7 +54,7 @@ export default function IntraCityTransportPage() {
                 { icon: "bolt", t: "Within hours", d: "Most trips picked up in minutes and completed within hours." },
                 { icon: "users", t: "Loading help", d: "Add trained helpers to load and unload heavy items." },
                 { icon: "track", t: "Live tracking", d: "See exactly where your driver is, pickup to drop." },
-                { icon: "shield", t: "Our own fleet", d: "Driven by Nexora's own drivers — never outsourced." },
+                { icon: "shield", t: "Our own fleet", d: "Driven by DPSV's own drivers — never outsourced." },
               ].map((p) => (
                 <div key={p.t} className="flex gap-4 rounded-xl border border-line bg-white p-5">
                   <span className="grid h-11 w-11 shrink-0 place-items-center rounded-full bg-navy-100 text-navy-800"><Icon name={p.icon as "bolt"} size={22} /></span>
@@ -121,7 +121,7 @@ export default function IntraCityTransportPage() {
       {/* Cities */}
       <section className="py-16 md:py-20">
         <div className="shell text-center">
-          <SectionTitle center eyebrow="Now live in" title="On-demand transport across India's top cities" />
+          <SectionTitle center eyebrow="Now live in" title="On-demand transport across our cities" />
           <div className="mt-8 flex flex-wrap justify-center gap-3">
             {metros.map((c) => (
               <span key={c} className="inline-flex items-center gap-2 rounded-full border border-line bg-white px-4 py-2 text-sm font-600 text-navy-700">

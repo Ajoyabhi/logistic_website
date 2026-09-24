@@ -5,7 +5,7 @@ import { PageHero, SectionTitle, Button } from "@/components/UI";
 
 export const metadata: Metadata = {
   title: "Careers",
-  description: "Build your career at Nexora Movers. Explore open roles across our city teams and operations.",
+  description: "Build your career at DPSV Logistic. Explore open roles across our city teams and operations.",
 };
 
 const perks = [
@@ -28,7 +28,7 @@ export default function CareersPage() {
   return (
     <>
       <PageHero
-        title="Careers at Nexora"
+        title="Careers at DPSV"
         subtitle="Join the team helping thousands of families and businesses move, stress-free."
         image="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=2000&q=70"
         trail={[{ label: "Careers" }]}
@@ -36,7 +36,7 @@ export default function CareersPage() {
 
       <section className="py-16 md:py-24">
         <div className="shell">
-          <SectionTitle center eyebrow="Why Nexora" title="Grow with a team that cares" intro="We invest in our people because they're the reason every move goes smoothly. Here's what you can expect." />
+          <SectionTitle center eyebrow="Why DPSV" title="Grow with a team that cares" intro="We invest in our people because they're the reason every move goes smoothly. Here's what you can expect." />
           <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {perks.map((p) => (
               <div key={p.title} className="rounded-xl border border-line bg-white p-6 text-center">

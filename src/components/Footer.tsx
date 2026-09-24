@@ -15,7 +15,7 @@ const cols = [
   {
     title: "Company",
     links: [
-      { label: "About Nexora", href: "/about" },
+      { label: "About DPSV", href: "/about" },
       { label: "Why Choose Us", href: "/about#why" },
       { label: "Partner with Us", href: "/partner" },
       { label: "Sustainability", href: "/sustainability" },
@@ -52,7 +52,7 @@ export default function Footer() {
         <div className="col-span-2">
           <Logo variant="light" />
           <p className="mt-4 max-w-xs text-sm leading-relaxed">
-            {site.tagline} Nexora is a movers &amp; packers and on-demand transport startup — home shifting, office moves, car &amp; bike transport and mini-trucks, handled by our own trained crew.
+            {site.tagline} DPSV is a movers &amp; packers and on-demand transport startup — home shifting, office moves, car &amp; bike transport and mini-trucks, handled by our own trained crew.
           </p>
           <div className="mt-5 space-y-2 text-sm">
             <p className="flex items-center gap-2"><Icon name="pin" size={16} /> {site.hq}</p>
@@ -84,7 +84,7 @@ export default function Footer() {
 
       <div className="border-t border-white/10">
         <div className="shell flex flex-col items-center justify-between gap-2 py-5 text-xs text-white/50 md:flex-row">
-          <p>© {new Date().getFullYear()} Nexora Logistics. All rights reserved. A demonstration website.</p>
+          <p>© {new Date().getFullYear()} DPSV Logistics. All rights reserved. A demonstration website.</p>
           <div className="flex gap-5">
             <Link href="#" className="hover:text-white">Privacy Policy</Link>
             <Link href="#" className="hover:text-white">Cookie Policy</Link>

@@ -1,44 +1,50 @@
 /* ============================================================
-   Nexora Movers — central site data
+   DPSV Logistic — central site data
    A moving, packing & on-demand transport startup with an
    in-house team (inspired by Porter / Agarwal Packers & Movers /
    NoBroker Movers). All page content is driven from here.
    ============================================================ */
 
 export const site = {
-  name: "Nexora Movers",
+  name: "DPSV Logistic",
+  legalName: "Shrivatsam Projects Private Limited",
   tagline: "Packers, Movers & On-Demand Transport.",
-  email: "care@nexoramovers.in",
+  email: "care@dpsv.co.in",
   phone: "1800 200 0142",
-  hq: "Nexora House, Sector 44, Gurugram, Haryana 122003, India",
-  appNote: "Book a move, get live crew tracking and support on the Nexora app.",
+  hq: "First Floor, 80A Indira Nagar, Taramandal Road, R/O Bilandpur, Taramandal, Gorakhpur, Uttar Pradesh 273016",
+  appNote: "Book a move, get live crew tracking and support on the DPSV app.",
 };
 
 /* Headline stats (homepage grid uses 4) */
 export const stats = [
-  { value: 50000, label: "Moves Completed", suffix: "+" },
-  { value: 25, label: "Cities Served", suffix: "+" },
-  { value: 1200, label: "In-House Movers", suffix: "+" },
+  { value: 7, label: "States Covered", suffix: "" },
+  { value: 10000, label: "Moves Completed", suffix: "+" },
+  { value: 200, label: "In-House Movers", suffix: "+" },
   { value: 98, label: "On-Time Moves", suffix: "%" },
 ];
 
 /* Secondary stats */
 export const networkStats = [
-  { value: 600, label: "Own Vehicles", suffix: "+" },
-  { value: 15000, label: "Homes Shifted / Year", suffix: "+" },
-  { value: 100, label: "Trained Packing Crews", suffix: "+" },
+  { value: 100, label: "Own Vehicles", suffix: "+" },
+  { value: 5000, label: "Homes Shifted / Year", suffix: "+" },
+  { value: 40, label: "Trained Packing Crews", suffix: "+" },
   { value: 24, label: "Support", suffix: "/7" },
 ];
 
-/* Cities we serve */
+/* States / regions we operate in */
+export const serviceStates = [
+  "Uttar Pradesh", "Delhi", "Delhi NCR", "Haryana", "Rajasthan", "Bihar", "Madhya Pradesh",
+];
+
+/* Cities we serve (within our operating states) */
 export const metros = [
-  "Delhi NCR", "Mumbai", "Bengaluru", "Hyderabad", "Chennai",
-  "Kolkata", "Pune", "Ahmedabad", "Jaipur", "Lucknow", "Surat", "Chandigarh",
+  "Gorakhpur", "Lucknow", "Kanpur", "Varanasi", "Noida",
+  "Ghaziabad", "Delhi", "Gurugram", "Faridabad", "Jaipur", "Patna", "Bhopal",
 ];
 
 /* Why choose us — our own team, no middlemen */
 export const promises = [
-  { icon: "users", title: "Our Own Trained Crew", body: "Every move is done by Nexora's own uniformed, background-verified movers — never outsourced." },
+  { icon: "users", title: "Our Own Trained Crew", body: "Every move is done by DPSV's own uniformed, background-verified movers — never outsourced." },
   { icon: "rupee", title: "Transparent Pricing", body: "Upfront, itemised quotes with no hidden charges and no last-minute surprises." },
   { icon: "shield", title: "Damage-Safe Packing", body: "Multi-layer, quality packing materials and careful handling for fragile items." },
   { icon: "clock", title: "On-Time, Every Time", body: "98% on-time performance with a dedicated move coordinator for every booking." },
@@ -87,7 +93,7 @@ export const solutions: Solution[] = [
     summary:
       "Planned office, shop and commercial relocation with minimal disruption to your business.",
     intro:
-      "Moving an office is complex — workstations, IT equipment, documents and inventory all need care. Nexora plans your commercial move around your schedule, with our own crew packing, labelling and moving everything systematically, so you're up and running fast at the new location.",
+      "Moving an office is complex — workstations, IT equipment, documents and inventory all need care. DPSV plans your commercial move around your schedule, with our own crew packing, labelling and moving everything systematically, so you're up and running fast at the new location.",
     features: [
       { title: "Move Planning", body: "A phased plan built around your working hours." },
       { title: "IT & Equipment Care", body: "Safe handling of computers, servers and electronics." },
@@ -110,7 +116,7 @@ export const solutions: Solution[] = [
     summary:
       "Long-distance household shifting between cities on our own fleet, with tracking and insurance.",
     intro:
-      "Relocating to another city? Nexora manages your entire intercity move door to door — professional packing, dedicated vehicle, safe long-haul transport and unpacking at the destination. Track your goods throughout and move with full transit protection.",
+      "Relocating to another city? DPSV manages your entire intercity move door to door — professional packing, dedicated vehicle, safe long-haul transport and unpacking at the destination. Track your goods throughout and move with full transit protection.",
     features: [
       { title: "Dedicated Vehicle", body: "Your goods travel alone — no shared, mixed loads." },
       { title: "Transit Protection", body: "Optional all-risk insurance for total peace of mind." },
@@ -133,7 +139,7 @@ export const solutions: Solution[] = [
     summary:
       "On-demand two-wheelers, three-wheelers and mini-trucks to move goods anywhere in your city.",
     intro:
-      "Need to move goods across town — a few boxes, furniture, a shop delivery or a small load? Book a Nexora two-wheeler, three-wheeler or mini-truck on demand, with a driver from our own fleet. Instant fare, live tracking and pay per trip — moving goods around your city has never been simpler.",
+      "Need to move goods across town — a few boxes, furniture, a shop delivery or a small load? Book a DPSV two-wheeler, three-wheeler or mini-truck on demand, with a driver from our own fleet. Instant fare, live tracking and pay per trip — moving goods around your city has never been simpler.",
     features: [
       { title: "On-Demand Booking", body: "Book a vehicle in minutes, any time of day." },
       { title: "Choice of Vehicle", body: "Two-wheeler to Pickup 8ft — right-sized for your load." },
@@ -156,7 +162,7 @@ export const solutions: Solution[] = [
     summary:
       "Door-to-door car and two-wheeler transportation on enclosed carriers, with full insurance.",
     intro:
-      "Relocating and don't want to drive or ride long distance? Nexora transports your car or bike safely across cities on our own carriers. We handle pickup, secure loading, insured transit and doorstep delivery — with condition reports at both ends so your vehicle arrives exactly as it left.",
+      "Relocating and don't want to drive or ride long distance? DPSV transports your car or bike safely across cities on our own carriers. We handle pickup, secure loading, insured transit and doorstep delivery — with condition reports at both ends so your vehicle arrives exactly as it left.",
     features: [
       { title: "Enclosed Carriers", body: "Your vehicle travels protected from road and weather." },
       { title: "Full Insurance", body: "Comprehensive transit cover for total peace of mind." },
@@ -179,7 +185,7 @@ export const solutions: Solution[] = [
     summary:
       "Clean, secure, CCTV-monitored storage for your belongings — short or long term.",
     intro:
-      "Between moves, renovating, or just short on space? Store your belongings in Nexora's clean, secure and monitored warehouses. We pack, inventory and store your items safely, and deliver them back to you whenever you're ready — with flexible short and long-term plans.",
+      "Between moves, renovating, or just short on space? Store your belongings in DPSV's clean, secure and monitored warehouses. We pack, inventory and store your items safely, and deliver them back to you whenever you're ready — with flexible short and long-term plans.",
     features: [
       { title: "Secure Facilities", body: "CCTV-monitored, access-controlled storage units." },
       { title: "Full Inventory", body: "Every item catalogued so nothing goes missing." },
@@ -227,7 +233,7 @@ export const industries: Industry[] = [
     hook: "Move without taking leave",
     summary: "Quick, flexible moves that fit around your work schedule.",
     intro:
-      "Busy professionals don't have time for a chaotic move. Nexora offers evening and weekend slots, fast turnaround and a single coordinator, so you can relocate with minimal disruption to your work and life.",
+      "Busy professionals don't have time for a chaotic move. DPSV offers evening and weekend slots, fast turnaround and a single coordinator, so you can relocate with minimal disruption to your work and life.",
     capabilities: ["Evening & weekend slots", "Fast, same-day local moves", "Single point of contact", "Live tracking on the app"],
     image: "https://images.unsplash.com/photo-1594732832278-abd644401426?auto=format&fit=crop&w=1600&q=70",
     icon: "users",
@@ -260,7 +266,7 @@ export const industries: Industry[] = [
     hook: "Rent, move, repeat — sorted",
     summary: "Hassle-free moves whenever you change a rented home.",
     intro:
-      "Changing a rented home is one of the most common reasons people move in India. Nexora makes every rental move smooth — flexible slots, careful handling of your deposit-sensitive property, and transparent pricing you can count on each time.",
+      "Changing a rented home is one of the most common reasons people move in India. DPSV makes every rental move smooth — flexible slots, careful handling of your deposit-sensitive property, and transparent pricing you can count on each time.",
     capabilities: ["Flexible move-in / move-out slots", "Careful, damage-safe handling", "Transparent fixed quotes", "Short-notice bookings"],
     image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1600&q=70",
     icon: "pin",
@@ -268,7 +274,7 @@ export const industries: Industry[] = [
   {
     slug: "nri-long-distance",
     title: "NRI & Long-Distance",
-    hook: "Move across India, remotely managed",
+    hook: "Move home, remotely managed",
     summary: "End-to-end intercity and remote-managed moves you can trust from afar.",
     intro:
       "Managing a move from another city or country? We handle everything door to door — survey over video, professional packing, insured long-haul transport and setup — with regular updates so you stay in control from wherever you are.",
@@ -290,14 +296,14 @@ export type Article = {
 
 export const articles: Article[] = [
   {
-    id: "nexora-crosses-50000-moves",
+    id: "dpsv-crosses-10000-moves",
     category: "Milestone",
     date: "Sep/02/2026",
-    title: "Nexora Movers Crosses 50,000 Successful Moves",
+    title: "DPSV Logistic Crosses 10,000 Successful Moves",
     excerpt:
       "A major milestone for our in-house crews, built on transparent pricing and on-time, damage-safe moves.",
     body: [
-      "Nexora Movers today announced it has completed more than 50,000 successful home and office moves across India.",
+      "DPSV Logistic today announced it has completed more than 10,000 successful home and office moves across North and Central India.",
       "The milestone reflects the trust customers place in our fully in-house model — our own trained crews, our own vehicles and transparent, fixed pricing.",
       "\"Every move is someone's home or livelihood,\" said the Head of Operations. \"Doing it ourselves, end to end, is how we keep quality high and surprises low.\"",
     ],
@@ -311,7 +317,7 @@ export const articles: Article[] = [
     excerpt:
       "Book a two-wheeler, auto or mini-truck in minutes to move goods anywhere within your city.",
     body: [
-      "Nexora Movers has expanded its on-demand intra-city transport to 10 cities, letting customers book a vehicle in minutes.",
+      "DPSV Logistic has expanded its on-demand intra-city transport to 10 cities, letting customers book a vehicle in minutes.",
       "From a few boxes to a full furniture load, users can now hire a two-wheeler, three-wheeler or mini-truck with a driver from our own fleet — with instant fares and live tracking.",
     ],
     image: "https://images.unsplash.com/photo-1599050751795-6cdaafbc2319?auto=format&fit=crop&w=1600&q=70",
@@ -330,15 +336,15 @@ export const articles: Article[] = [
     image: "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?auto=format&fit=crop&w=1600&q=70",
   },
   {
-    id: "nexora-launches-pune",
+    id: "dpsv-launches-lucknow",
     category: "Expansion",
     date: "Jul/22/2026",
-    title: "Nexora Movers Launches Full Services in Pune",
+    title: "DPSV Logistic Launches Full Services in Lucknow",
     excerpt:
-      "Home shifting, office relocation and on-demand transport are now available across Pune.",
+      "Home shifting, office relocation and on-demand transport are now available across Lucknow.",
     body: [
-      "Nexora Movers has launched its full range of services in Pune, adding local crews, vehicles and a city operations team.",
-      "Residents and businesses in Pune can now book home shifting, office relocation, intercity moves and on-demand transport directly through the app and website.",
+      "DPSV Logistic has launched its full range of services in Lucknow, adding local crews, vehicles and a city operations team.",
+      "Residents and businesses in Lucknow can now book home shifting, office relocation, intercity moves and on-demand transport directly through the app and website.",
     ],
     image: "https://images.unsplash.com/photo-1524230572899-a752b3835840?auto=format&fit=crop&w=1600&q=70",
   },
@@ -346,11 +352,11 @@ export const articles: Article[] = [
     id: "car-bike-transport-launch",
     category: "Service",
     date: "Jun/30/2026",
-    title: "Nexora Introduces Insured Car & Bike Transport",
+    title: "DPSV Introduces Insured Car & Bike Transport",
     excerpt:
       "Move your vehicle across cities on enclosed carriers, with full insurance and condition reports.",
     body: [
-      "Nexora Movers has launched door-to-door car and two-wheeler transport on enclosed carriers.",
+      "DPSV Logistic has launched door-to-door car and two-wheeler transport on enclosed carriers.",
       "The service includes comprehensive transit insurance and documented condition reports at pickup and delivery, so vehicles arrive exactly as they left.",
     ],
     image: "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1600&q=70",

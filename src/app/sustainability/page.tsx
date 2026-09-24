@@ -6,7 +6,7 @@ import { PageHero, SectionTitle, Button } from "@/components/UI";
 
 export const metadata: Metadata = {
   title: "Sustainability",
-  description: "Nexora Movers is committed to greener moves — reusable packing, fuel-efficient vehicles and less waste on every shift.",
+  description: "DPSV Logistic is committed to greener moves — reusable packing, fuel-efficient vehicles and less waste on every shift.",
 };
 
 const pillars = [

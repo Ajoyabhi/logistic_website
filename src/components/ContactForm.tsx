@@ -14,7 +14,7 @@ export default function ContactForm() {
         <span className="grid h-12 w-12 shrink-0 place-items-center rounded-full bg-accent-500 text-white"><Icon name="check" size={26} /></span>
         <div>
           <h3 className="font-head text-lg font-600 uppercase text-navy-800">Thank you!</h3>
-          <p className="text-sm text-mute">Your enquiry has been received. A Nexora expert will be in touch shortly. (Demo form — nothing was sent.)</p>
+          <p className="text-sm text-mute">Your enquiry has been received. A DPSV expert will be in touch shortly. (Demo form — nothing was sent.)</p>
         </div>
       </div>
     );

@@ -4,7 +4,7 @@ import Icon from "@/components/Icon";
 import StatCounter from "@/components/StatCounter";
 import HeroQuoteCard from "@/components/HeroQuoteCard";
 import { SectionTitle, Eyebrow, ArrowLink, Button, CardImage } from "@/components/UI";
-import { solutions, industries, articles, stats, metros, promises } from "@/lib/site";
+import { solutions, industries, articles, stats, serviceStates, promises } from "@/lib/site";
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
       <section className="relative isolate overflow-hidden bg-navy-900">
         <Image
           src="https://images.unsplash.com/photo-1600518464441-9154a4dea21b?auto=format&fit=crop&w=2000&q=75"
-          alt="Nexora movers packing and loading a home"
+          alt="DPSV movers packing and loading a home"
           fill
           priority
           className="object-cover opacity-40"
@@ -28,7 +28,7 @@ export default function Home() {
             </h1>
             <p className="mt-6 max-w-xl text-lg text-white/80">
               Home shifting, office relocation, car &amp; bike transport and on-demand mini-trucks —
-              packed, loaded and moved by Nexora&apos;s own trained crew. No middlemen.
+              packed, loaded and moved by DPSV&apos;s own trained crew. No middlemen.
             </p>
             <ul className="mt-6 flex flex-wrap gap-x-6 gap-y-2 text-white/85">
               {["Home Shifting", "Office Moves", "Intercity", "Book a Truck"].map((t) => (
@@ -128,7 +128,7 @@ export default function Home() {
             </div>
           </div>
           <div className="relative aspect-[4/3] overflow-hidden rounded-xl shadow-2xl">
-            <Image src="https://images.unsplash.com/photo-1599050751795-6cdaafbc2319?auto=format&fit=crop&w=1400&q=75" alt="Nexora on-demand mini-truck" fill className="object-cover" sizes="(max-width:1024px) 100vw, 50vw" />
+            <Image src="https://images.unsplash.com/photo-1599050751795-6cdaafbc2319?auto=format&fit=crop&w=1400&q=75" alt="DPSV on-demand mini-truck" fill className="object-cover" sizes="(max-width:1024px) 100vw, 50vw" />
             <span className="absolute left-4 top-4 rounded-full bg-accent-500 px-3 py-1 text-xs font-700 uppercase tracking-wide text-white">Within hours</span>
           </div>
         </div>
@@ -141,7 +141,7 @@ export default function Home() {
           <SectionTitle
             light
             center
-            eyebrow="Trusted across India"
+            eyebrow="Trusted across the region"
             title="Thousands of moves, done right"
             intro="Our numbers reflect one simple promise: an in-house team that treats every move like their own."
           />
@@ -188,7 +188,7 @@ export default function Home() {
       {/* ============ HOW IT WORKS ============ */}
       <section className="bg-cloud py-20 md:py-28">
         <div className="shell">
-          <SectionTitle center eyebrow="How it works" title="Moving with Nexora is simple" />
+          <SectionTitle center eyebrow="How it works" title="Moving with DPSV is simple" />
           <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {[
               { n: "01", t: "Get a free quote", d: "Share your move details and get a transparent estimate — online or over a quick survey." },
@@ -210,7 +210,7 @@ export default function Home() {
       {/* ============ WHY US ============ */}
       <section className="py-20 md:py-28">
         <div className="shell">
-          <SectionTitle center eyebrow="Why Nexora" title="An in-house team you can trust" intro="We don't hand your move to random contractors. Every crew, vehicle and coordinator is ours." />
+          <SectionTitle center eyebrow="Why DPSV" title="An in-house team you can trust" intro="We don't hand your move to random contractors. Every crew, vehicle and coordinator is ours." />
           <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {promises.map((p) => (
               <div key={p.title} className="rounded-xl border border-line bg-white p-6 text-center">
@@ -223,15 +223,15 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ============ CITIES ============ */}
+      {/* ============ WHERE WE OPERATE ============ */}
       <section className="pb-16 md:pb-20">
         <div className="shell text-center">
-          <Eyebrow>Now serving</Eyebrow>
-          <h2 className="mt-3 font-head text-3xl font-600 uppercase text-navy-800">Moving families &amp; businesses across India</h2>
+          <Eyebrow>Where we operate</Eyebrow>
+          <h2 className="mt-3 font-head text-3xl font-600 uppercase text-navy-800">Moving families &amp; businesses across North &amp; Central India</h2>
           <div className="mt-8 flex flex-wrap justify-center gap-3">
-            {metros.map((c) => (
-              <span key={c} className="inline-flex items-center gap-2 rounded-full border border-line bg-white px-4 py-2 text-sm font-600 text-navy-700">
-                <Icon name="pin" size={15} className="text-accent-500" /> {c}
+            {serviceStates.map((s) => (
+              <span key={s} className="inline-flex items-center gap-2 rounded-full border border-line bg-white px-4 py-2 text-sm font-600 text-navy-700">
+                <Icon name="pin" size={15} className="text-accent-500" /> {s}
               </span>
             ))}
           </div>

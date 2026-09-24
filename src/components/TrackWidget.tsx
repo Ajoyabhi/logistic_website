@@ -10,14 +10,14 @@ type Step = { label: string; place: string; date: string; done: boolean };
 
 const demo: { status: string; service: string; steps: Step[] } = {
   status: "In Transit",
-  service: "2 BHK · Bengaluru → Pune",
+  service: "2 BHK · Lucknow → Delhi",
   steps: [
     { label: "Booking confirmed", place: "Coordinator assigned", date: "12 Sep, 10:20", done: true },
-    { label: "Pre-move survey done", place: "Koramangala, Bengaluru", date: "13 Sep, 16:00", done: true },
-    { label: "Packing completed", place: "Koramangala, Bengaluru", date: "16 Sep, 11:30", done: true },
-    { label: "Loaded & in transit", place: "En route to Pune", date: "16 Sep, 18:45", done: true },
-    { label: "Out for delivery", place: "Kharadi, Pune", date: "Expected 18 Sep", done: false },
-    { label: "Delivered & unpacked", place: "Pune", date: "—", done: false },
+    { label: "Pre-move survey done", place: "Indira Nagar, Lucknow", date: "13 Sep, 16:00", done: true },
+    { label: "Packing completed", place: "Indira Nagar, Lucknow", date: "16 Sep, 11:30", done: true },
+    { label: "Loaded & in transit", place: "En route to Delhi", date: "16 Sep, 18:45", done: true },
+    { label: "Out for delivery", place: "Dwarka, Delhi", date: "Expected 18 Sep", done: false },
+    { label: "Delivered & unpacked", place: "Delhi", date: "—", done: false },
   ],
 };
 

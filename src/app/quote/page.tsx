@@ -5,7 +5,7 @@ import QuoteWidget from "@/components/QuoteWidget";
 
 export const metadata: Metadata = {
   title: "Get a Free Quote — Moving Cost Estimator",
-  description: "Get an instant estimate for home shifting, office relocation, car & bike transport or an in-city move with Nexora Movers.",
+  description: "Get an instant estimate for home shifting, office relocation, car & bike transport or an in-city move with DPSV Logistic.",
 };
 
 const perks = [

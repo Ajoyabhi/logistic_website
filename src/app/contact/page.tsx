@@ -6,14 +6,15 @@ import ContactForm from "@/components/ContactForm";
 
 export const metadata: Metadata = {
   title: "Contact Us",
-  description: "Get in touch with Nexora Movers. Talk to a move coordinator or reach a branch near you.",
+  description: "Get in touch with DPSV Logistic in Gorakhpur. Talk to a move coordinator about your home or office move.",
 };
 
 const offices = [
-  { city: "Gurugram (Head Office)", addr: "Nexora House, Sector 44, Gurugram, Haryana 122003", phone: "0124 555 0142" },
-  { city: "Mumbai", addr: "Nexora Branch, Andheri East, Mumbai, Maharashtra 400069", phone: "022 5555 0142" },
-  { city: "Bengaluru", addr: "Nexora Branch, Koramangala, Bengaluru, Karnataka 560034", phone: "080 5555 0142" },
-  { city: "Pune", addr: "Nexora Branch, Kharadi, Pune, Maharashtra 411014", phone: "020 5555 0142" },
+  {
+    city: "Gorakhpur (Head Office)",
+    addr: "First Floor, 80A Indira Nagar, Taramandal Road, R/O Bilandpur, Taramandal, Gorakhpur, Uttar Pradesh 273016",
+    phone: "1800 200 0142",
+  },
 ];
 
 export default function ContactPage() {
