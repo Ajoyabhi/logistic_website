@@ -1,26 +1,106 @@
 @import "tailwindcss";
 
+/* ============================================================
+   Nexora Logistics — Design System
+   ============================================================ */
+
+@theme {
+  /* Brand palette */
+  --color-navy-950: #061426;
+  --color-navy-900: #071a33;
+  --color-navy-800: #0b2545;
+  --color-navy-700: #13315c;
+  --color-navy-600: #1b3f74;
+  --color-navy-500: #2a5590;
+  --color-navy-100: #e6edf6;
+
+  --color-accent-700: #b8480f;
+  --color-accent-600: #d8571a;
+  --color-accent-500: #f26a1b;
+  --color-accent-400: #f6893f;
+  --color-accent-100: #fde9db;
+
+  --color-ink: #0f172a;
+  --color-mute: #5b6b82;
+  --color-line: #e2e8f0;
+  --color-cloud: #f5f7fa;
+
+  /* Fonts (wired in layout.tsx via next/font) */
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-head: var(--font-oswald), var(--font-inter), sans-serif;
+
+  /* Layout */
+  --spacing-shell: 1280px;
+}
+
 :root {
   --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --foreground: #0f172a;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Uppercase condensed headings, Yusen-style */
+h1, h2, h3, h4, .font-head {
+  font-family: var(--font-head);
+  letter-spacing: 0.01em;
+}
+
+/* Utilities */
+.shell {
+  width: 100%;
+  max-width: var(--spacing-shell);
+  margin-inline: auto;
+  padding-inline: 1.25rem;
+}
+
+.diag-cut {
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 44px), 0 100%);
+}
+
+.accent-underline {
+  position: relative;
+  display: inline-block;
+}
+.accent-underline::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 64px;
+  height: 4px;
+  background: var(--color-accent-500);
+}
+
+.link-arrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-weight: 600;
+  color: var(--color-navy-800);
+  transition: gap 0.2s ease, color 0.2s ease;
+}
+.link-arrow:hover {
+  gap: 0.7rem;
+  color: var(--color-accent-600);
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.reveal {
+  animation: fadeUp 0.7s ease both;
+}
+
+html { scroll-behavior: smooth; }
+
+::selection {
+  background: var(--color-accent-500);
+  color: #fff;
 }
